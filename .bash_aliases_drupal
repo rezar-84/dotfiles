@@ -1,0 +1,11 @@
+# Drupal aliases
+alias cr='drush cr'
+alias cim='drush cim -y'
+alias cex='drush cex -y'
+alias updb='drush updb -y'
+alias uli='drush uli'
+alias wd='drush ws --tail'
+alias dblog='drush ws --tail'
+alias s='drush status'
+alias dr='drush'
+alias fix-drupal='drush cr && drush updb -y && drush cim -y && drush cr'

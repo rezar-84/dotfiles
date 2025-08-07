@@ -1,0 +1,9 @@
+# Docker / Lando / DevOps aliases
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down'
+alias dcr='docker-compose restart'
+alias dcl='docker-compose logs -f'
+alias l='lando'
+alias lsh='lando ssh'
+alias ldr='lando drush'
+alias fixssl='sudo a2enmod ssl && sudo service apache2 restart'
